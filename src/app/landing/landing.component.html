@@ -1,0 +1,37 @@
+<div>
+<div class="padding">
+    <input #query type="text" class="form-control" placeholder="Search Songs, Albums..">
+</div>
+<div>
+            <ul class="row">
+                <!-- HOME -->
+                <li class="col-4">      
+                <a routerLink="/login">Home</a>
+                </li>
+                <li class="col-4">
+                <!-- Albums -->   
+                <a routerLink="/login">Albums</a>
+                </li>
+                <li class="col-4">
+                <!-- Favourites -->     
+                <a routerLink="/login">Favourites</a>
+                </li>
+            </ul>
+</div>
+<!-- <ul class="list-group">
+    <li *ngFor="let album of albums" class="list-group-item">
+        <label>{{album.name}}</label>
+    </li>
+</ul> -->
+<div class="row">
+    <div class="col-md-6">
+        <span *ngFor="let album of albums">
+            <img class="card-img-top" [src]="album.imageURL" alt="Card image cap" style="width:128px;height:128px;">
+            <div class="card-body">
+                <label class="card-title">{{album.album}}</label>
+            </div>
+        </span>
+    </div>
+</div>
+
+</div>
