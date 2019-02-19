@@ -25,12 +25,16 @@
 </ul> -->
 <div class="row">
     <div class="col-md-6">
-        <span *ngFor="let album of albums">
-            <img class="card-img-top" [src]="album.imageURL" alt="Card image cap" style="width:128px;height:128px;">
-            <div class="card-body">
-                <label class="card-title">{{album.album}}</label>
-            </div>
-        </span>
+            <a href="songList.url3">
+                    <span *ngFor="let album of albums">
+                            <img class="card-img-top" [src]="album.imageURL" alt="Card image cap" style="width:128px;height:128px;">
+                            <div class="card-body">
+                                <label class="card-title">{{album.album}}</label>
+                            </div>
+                        </span>
+
+            </a>
+        
     </div>
 </div>
 

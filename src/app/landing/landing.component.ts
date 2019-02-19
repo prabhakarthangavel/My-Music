@@ -25,7 +25,8 @@ export class LandingComponent implements OnInit {
             this.songList.push(songsInnerArray);
           }); 
         });
-        console.log("******this.songList*********",this.songList);    
+        // for(let i in this.songList )
+        // console.log("******this.songList*********",this.songList[i].s1);    
       }
     )
   }
