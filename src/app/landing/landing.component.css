@@ -26,3 +26,11 @@ li a {
   }
 
    */
+
+  /* To list the items Horizontally
+  ul{
+    list-style: none;
+  }
+  li{
+    display: inline;
+  } */

@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
 import { LandingService } from './landing.service';
 import { Album } from './album';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-landing',
@@ -11,7 +12,7 @@ import { Album } from './album';
 export class LandingComponent implements OnInit {
   private albums:any;
   private songList=[]; 
-  constructor(private landingService:LandingService) {
+  constructor(private landingService:LandingService,private Router:Router) {
      
   }
 
@@ -29,6 +30,11 @@ export class LandingComponent implements OnInit {
         // console.log("******this.songList*********",this.songList[i].s1);    
       }
     )
+  }
+
+  router(event){
+    console.log("%%EVENT%%",event);
+    this.Router.navigate(['\songs']);
   }
 
 

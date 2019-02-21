@@ -14,14 +14,16 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { LandingComponent } from './landing/landing.component';
 import { AdminFormComponent } from './admin/admin-form/admin-form.component';
 import { LandingService } from './landing/landing.service';
-import { HttpClientModule } from '@angular/common/http'; 
+import { HttpClientModule } from '@angular/common/http';
+import { SongsViewComponent } from './songs-view/songs-view.component'; 
 
 @NgModule({
   declarations: [
     AppComponent,
     NavBarComponent,
     LandingComponent,
-    AdminFormComponent
+    AdminFormComponent,
+    SongsViewComponent
   ],
   imports: [
     HttpClientModule,
@@ -33,8 +35,8 @@ import { HttpClientModule } from '@angular/common/http';
     AngularFireDatabaseModule,
     AngularFireAuthModule,
     RouterModule.forRoot([
-      { path: '', component:LandingComponent}
-    //   { path: 'home', component:HomeComponent},
+      { path: '', component:LandingComponent},
+      { path: 'songs', component:SongsViewComponent},
     ])
   ],
   providers: [LandingService],
