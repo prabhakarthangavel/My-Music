@@ -1,87 +1,66 @@
-[{
-    "album": "petta",
-    "director": "Anirudh",
-    "imageURL": "https://www.filmibeat.com/img/220x100x275/popcorn/movie_posters/petta-20181022112636-16938.jpg",
-    "songs": [
+[
+    {
+      "songs": 
         {
-            "s1":"Petta theme",
-            "url1":"",
-            "s2":"Marana Mass",
-            "url2":"",
-            "s3":"Illamai Thirumbuthae",
-            "ur13": "https://www.masstamilan.org/downloader/Rwj9ccPx7KstxEGVtJTjkw/1550506634/d128_cdn/17232",
-            "s4":"Ullalla",
-            "url4":""
-            }
-    ]   
-},
-{
-    "album": "Sarvam Thala Mayam",
-    "director": "AR Rehman",
-    "imageURL": "https://upload.wikimedia.org/wikipedia/en/thumb/7/72/Sarvam_Thaala_Mayam_Poster.jpg/220px-Sarvam_Thaala_Mayam_Poster.jpg",
-    "songs": [
+          "url4": "",
+          "s4": "Ullalla",
+          "ur13": "https://www.masstamilan.org/downloader/Rwj9ccPx7KstxEGVtJTjkw/1550506634/d128_cdn/17232",
+          "s3": "Illamai Thirumbuthae",
+          "url2": "",
+          "s2": "Marana Mass",
+          "url1": "",
+          "s1": "Petta theme"
+        },
+      "imageURL": "https://www.filmibeat.com/img/220x100x275/popcorn/movie_posters/petta-20181022112636-16938.jpg",
+      "director": "Anirudh",
+      "album": "petta"
+    },
+    {
+      "songs": 
         {
-            "s1":"Maya Maya",
-            "url1":"",
-            "s2":"Peter Betta ethu",
-            "url2":"",
-            "s3":"Dingu Dongu",
-            "ur13": "",
-            "s4":"Varalama",
-            "url4":""
-            }
-    ]  
-},
-{
-    "album": "Sarkar",
-    "director": "AR Rehman",
-    "imageURL": "https://upload.wikimedia.org/wikipedia/en/7/72/Sarkar_2018_poster.jpg",
-    "songs": [
+          "url4": "",
+          "s4": "Varalama",
+          "ur13": "",
+          "s3": "Dingu Dongu",
+          "url2": "",
+          "s2": "Peter Betta ethu",
+          "url1": "",
+          "s1": "Maya Maya"
+        },
+      "imageURL": "https://upload.wikimedia.org/wikipedia/en/thumb/7/72/Sarvam_Thaala_Mayam_Poster.jpg/220px-Sarvam_Thaala_Mayam_Poster.jpg",
+      "director": "AR Rehman",
+      "album": "Sarvam Thala Mayam"
+    },
+    {
+      "songs": 
         {
-            "s1":"OMG Ponnu",
-            "url1":"",
-            "s2":"Simtaangaran",
-            "url2":"",
-            "s3":"Oru Viral Puratchi",
-            "ur13": "",
-            "s4":"Top Tucker",
-            "url4":""
-            }
-    ]
-},
-{
-    "album": "Roja",
-    "director": "AR Rehman",
-    "imageURL": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3f/Roja_Poster.jpg/220px-Roja_Poster.jpg",
-    "songs": 
-        [
-            {
-                "s1":"Kadhal Rojavae",
-                "url1":"",
-                "s2":"Puthu vellai malai",
-                "url2":"",
-                "s3":"Chinna Channa Asai",
-                "ur13": "",
-                "s4":"Tamizla Tamizla",
-                "url4":""
-                }  
-        ]
-}
-]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+          "url4": "",
+          "s4": "Top Tucker",
+          "ur13": "",
+          "s3": "Oru Viral Puratchi",
+          "url2": "",
+          "s2": "Simtaangaran",
+          "url1": "",
+          "s1": "OMG Ponnu"
+        },
+      "imageURL": "https://upload.wikimedia.org/wikipedia/en/7/72/Sarkar_2018_poster.jpg",
+      "director": "AR Rehman",
+      "album": "Sarkar"
+    },
+    {
+      "songs": 
+        {
+          "url4": "",
+          "s4": "Tamizla Tamizla",
+          "ur13": "",
+          "s3": "Chinna Channa Asai",
+          "url2": "",
+          "s2": "Puthu vellai malai",
+          "url1": "",
+          "s1": "Kadhal Rojavae"
+        },
+      "imageURL": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3f/Roja_Poster.jpg/220px-Roja_Poster.jpg",
+      "director": "AR Rehman",
+      "album": "Roja"
+    }
+  ]

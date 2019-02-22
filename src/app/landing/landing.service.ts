@@ -7,7 +7,7 @@ import 'rxjs/add/operator/map';
   providedIn: 'root'
 })
 export class LandingService {
-  private url = "https://api.jsonbin.io/b/5c659d25a83a29317734070a/6";
+  private url = "https://api.jsonbin.io/b/5c659d25a83a29317734070a/8";
 
   constructor(private http:HttpClient) { }
 
