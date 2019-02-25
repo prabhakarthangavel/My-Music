@@ -1,1 +1,7 @@
-<!-- <div [songs]="songs"></div> -->
+<div> 
+    <ul *ngFor="let songs of songsArray" class="row" style="list-style-type:none;">
+        <li class="col-4">
+            <p>{{songs}}</p>
+        </li>
+    </ul>
+</div>

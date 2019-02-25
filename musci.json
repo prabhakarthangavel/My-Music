@@ -2,31 +2,37 @@
     {
       "songs": 
         {
-          "url4": "",
           "s4": "Ullalla",
-          "ur13": "https://www.masstamilan.org/downloader/Rwj9ccPx7KstxEGVtJTjkw/1550506634/d128_cdn/17232",
-          "s3": "Illamai Thirumbuthae",
-          "url2": "",
+          "s3": "Illamai Thirumbuthae",  
           "s2": "Marana Mass",
-          "url1": "",
           "s1": "Petta theme"
         },
+      "urls":
+      {
+        "url4": "",
+        "ur13": "https://www.masstamilan.org/downloader/Rwj9ccPx7KstxEGVtJTjkw/1550506634/d128_cdn/17232",
+        "url2": "",
+        "url1": ""
+      },
       "imageURL": "https://www.filmibeat.com/img/220x100x275/popcorn/movie_posters/petta-20181022112636-16938.jpg",
       "director": "Anirudh",
       "album": "petta"
     },
     {
       "songs": 
-        {
-          "url4": "",
-          "s4": "Varalama",
-          "ur13": "",
+        {       
+          "s4": "Varalama",    
           "s3": "Dingu Dongu",
-          "url2": "",
           "s2": "Peter Betta ethu",
-          "url1": "",
           "s1": "Maya Maya"
         },
+      "urls":
+      {
+        "url4": "",
+        "ur13": "",
+        "url2": "",
+        "url1": ""
+      },
       "imageURL": "https://upload.wikimedia.org/wikipedia/en/thumb/7/72/Sarvam_Thaala_Mayam_Poster.jpg/220px-Sarvam_Thaala_Mayam_Poster.jpg",
       "director": "AR Rehman",
       "album": "Sarvam Thala Mayam"
@@ -34,31 +40,37 @@
     {
       "songs": 
         {
-          "url4": "",
           "s4": "Top Tucker",
-          "ur13": "",
           "s3": "Oru Viral Puratchi",
-          "url2": "",
           "s2": "Simtaangaran",
-          "url1": "",
           "s1": "OMG Ponnu"
         },
+      "urls":
+      {
+        "url4": "",
+        "ur13": "",
+        "url2": "",
+        "url1": ""
+      },
       "imageURL": "https://upload.wikimedia.org/wikipedia/en/7/72/Sarkar_2018_poster.jpg",
       "director": "AR Rehman",
       "album": "Sarkar"
     },
     {
       "songs": 
-        {
-          "url4": "",
-          "s4": "Tamizla Tamizla",
-          "ur13": "",
-          "s3": "Chinna Channa Asai",
-          "url2": "",
+        {      
+          "s4": "Tamizla Tamizla",          
+          "s3": "Chinna Channa Asai",          
           "s2": "Puthu vellai malai",
-          "url1": "",
           "s1": "Kadhal Rojavae"
         },
+      "urls":
+      {
+        "url4": "",
+        "ur13": "",
+        "url2": "",
+        "url1": ""
+      },
       "imageURL": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3f/Roja_Poster.jpg/220px-Roja_Poster.jpg",
       "director": "AR Rehman",
       "album": "Roja"
