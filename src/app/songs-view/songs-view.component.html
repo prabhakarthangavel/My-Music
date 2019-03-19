@@ -1,7 +1,7 @@
 <div> 
-    <ul *ngFor="let songs of songsArray" class="row" style="list-style-type:none;">
+    <ul *ngFor="let songs of songsArray; let i =index" class="row" style="list-style-type:none;">
         <li class="col-4">
-            <p>{{songs}}</p>
+            <p (click)="playAudio(i)">{{songs + i}}</p>
         </li>
     </ul>
 </div>

@@ -32,6 +32,7 @@ export class LandingComponent implements OnInit {
 
   router(event){
     this.landingService.setSongs(event.songs);
+    this.landingService.setUrls(event.urls);
     this.Router.navigate(['\songs']);
   }
 
